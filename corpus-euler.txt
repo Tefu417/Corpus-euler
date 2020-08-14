@@ -729,4 +729,3 @@
 <SOS>gamma = -1 * int(y / 100) + 5<tab>gammaにyを100で割った整数部分の-1倍に5を足したものを代入<EOS>
 <SOS>h = (d + int(26 * (m + 1) / 10) + (y % 100) + int((y % 100) / 4) + gamma) % 7<tab>hにd、26(m+1)/10の整数部分、yyを100で割った余り、y%100/4の整数部分、gammaを足した結果を代入<EOS>
 <SOS>return name[h]<tab>nameのh番目を返す<EOS>
-<SOS><tab><EOS>
